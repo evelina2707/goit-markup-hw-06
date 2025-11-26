@@ -265,12 +265,7 @@ img {
 }
 
 .feature-list {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  
+
 }
 
 .feauture-icon {
@@ -293,7 +288,6 @@ img {
 .icon {}
 
 .subsubtitle-feature {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -304,14 +298,26 @@ img {
 
 
 
-.feature-text {}
+.feature-text {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* #endregion solution */
 
 /* #region team */
 
+.team {
+  background: #f4f4fd;
+  display: flex;
+  padding: 120px 0;
+
+}
+
 .subsubtitle-team {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -321,12 +327,6 @@ img {
   text-align: center;
 }
 
-.team {
-  background: #f4f4fd;
-  display: flex;
-  padding: 120px 0;
-
-}
 
 .team-card {
   display: flex;
@@ -352,7 +352,12 @@ img {
 }
 
 .team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
   margin-bottom: 8px;
 }
 
@@ -436,7 +441,7 @@ img {
   text-transform: capitalize;
 }
 
-.project-card-list {
+.project-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
