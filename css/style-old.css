@@ -197,7 +197,7 @@ img {
 .main-section {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/img/hero-section/people-office.jpg);
+    url(../images/img/hero/hero-desk-1x.jpg);
 
   padding: 188px 0;
   max-width: 1440px;
@@ -243,8 +243,13 @@ img {
   background-color: #404bbf;
 }
 
+
+
 .feature {
   padding: 120px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .subtitle {
@@ -265,9 +270,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
-  align-items: center;
-  gap: 24px;
+  
 }
 
 .feauture-icon {
