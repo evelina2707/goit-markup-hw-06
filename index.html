@@ -54,13 +54,28 @@
           </svg>
         </button>
       </div>
+
       <div class="mobile-menu">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" type="button">
+            <svg class="close-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
             <nav class="mobile-menu-nav">
-              <address>
-                <ul>
-                  <li></li>
+              <ul class="mobile-menu-nav-list">
+                <li class="mobile-menu-nav-item">
+                  <a href="./index.html" class="nav-link-current">Studio</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a href="" class="nav-link">Portfolio</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a href="" class="nav-link">Contacts</a>
+                </li>
+              </ul>
+              <address class="mobile-menu-adress">
+                <ul class="mobile-menu-list">
+                  <li class="mobile-menu-item"></li>
                 </ul>
               </address>
             </nav>
@@ -649,7 +664,7 @@
     <!-- #endregion footer -->
 
     <!-- #region modal -->
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-button" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -732,7 +747,7 @@
           <button class="button-form main-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <!-- #endregion modal -->
   </body>
 </html>
