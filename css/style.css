@@ -260,13 +260,16 @@ height: 100%;
 }
 
 .mobile-menu-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-display: flex;
-  align-items: center;
-  justify-content: center;  
-  border: none;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+  border-radius: 50%;
+    border: 1px solid rgba(46, 47, 66, 0.1);
 }
 
 .mobile-menu-nav {
@@ -274,8 +277,6 @@ display: flex;
 }
 
 .close-icon {
-  border-radius: 100%;
-  border: 1px solid rgba(46, 47, 66, 0.1);
 }
 
 .mobile-menu-nav-list {
